@@ -1,0 +1,16 @@
+@mixin form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 300px;
+    text-align: center;
+    h1, p, span{
+        color: $slate-500;
+    }
+    .bottom-link{
+        font-size: small;
+    }
+}
